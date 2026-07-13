@@ -1,5 +1,5 @@
 <script setup>
-import BaseBoton from './components/BaseBoton.vue'
+import BaseBoton from './components/prueba_boton.vue'
 </script>
 
 <template>
