@@ -36,3 +36,13 @@ npm run dev
 ```sh
 npm run build
 ```
+
+## Inicio de sesion
+
+### Wireframe
+
+![Wireframe Login](wireframes/login1.png)
+
+### Mockup
+
+![Mockup Login](mockups/login2.png)
