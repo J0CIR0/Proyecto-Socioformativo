@@ -37,7 +37,7 @@ npm run dev
 npm run build
 ```
 
-## Inicio de Sesión
+## Inicio de Sesion
 
 ### Wireframe
 
