@@ -20,7 +20,7 @@
         <h2>Mi componente reutilizable</h2>
 
         <BotonPersonalizado
-         titulo="Cafetería de Noche"
+         titulo="Cafetería"
          descripcion="Este es un componente reutilizable creado para el proyecto." />
     </main>
 </template>
