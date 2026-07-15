@@ -2,35 +2,54 @@
     import BaseBoton from './components/prueba_boton.vue'
     //
     import BotonPersonalizado from './components/BotonPersonalizado.vue'
+    //clases
+    import EncabezadoApp from './components/EncabezadoApp.vue';
+    //pie mel
+    import PiePagina from './components/PiePagina.vue';
 </script>
 
 <template>
-    <main>
-        <h1>Sistema de Gestión Emprendimientos</h1>
-        <p>Proyecto de Programación Web II</p>
+    <div class="contenedor">
+        <!--clases-->
+        <EncabezadoApp titulo="Gestion de Emprendimientos"
+                       subtitulo="Proyecto de Programacion Web II" />
 
-        <div style="margin-top: 30px; display: flex; gap: 12px; flex-wrap: wrap;">
-            <BaseBoton texto="Primario" @click="console.log('Click')" />
-            <BaseBoton texto="Éxito" variante="exito" />
-            <BaseBoton texto="Peligro" variante="peligro" />
-            <BaseBoton texto="Pequeño" tamano="pequeno" variante="info" />
-            <BaseBoton texto="Deshab." :deshabilitado="true" variante="oscuro" />
-        </div>
-        <!--tarj mel-->
-        <h2>Mi componente reutilizable</h2>
+        <main>
+            <h1>Modulos principales</h1>
+            <p>Clientes, productos, ventas e inventario</p>
 
-        <BotonPersonalizado
-         titulo="Cafetería Cat"
-         descripcion="Este es un componente reutilizable creado para el proyecto." />
-    </main>
+            <div style="margin-top: 30px; display: flex; gap: 12px; flex-wrap: wrap;">
+                <BaseBoton texto="Primario" @click="console.log('Click')" />
+                <BaseBoton texto="Éxito" variante="exito" />
+                <BaseBoton texto="Peligro" variante="peligro" />
+                <BaseBoton texto="Pequeño" tamano="pequeno" variante="info" />
+                <BaseBoton texto="Deshab." :deshabilitado="true" variante="oscuro" />
+            </div>
+            <!--tarj mel-->
+            <h2>Mi componente reutilizable</h2>
+
+            <BotonPersonalizado titulo="Cafetería Cat"
+                                descripcion="Este es un componente reutilizable creado para el proyecto." />
+        </main>
+        <!--pie pag mel-->
+        <PiePagina texto="© 2026 Gestión de Cafeteria | Programación Web II" />
+    </div>
 </template>
 
 
 <style scoped>
+    .contenedor {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
     main {
+        flex: 1;
         max-width: 900px;
         margin: 40px auto;
-        font-family: Arial, sans-serif;
+        width: 100%;
+        font-family: Arial,sans-serif;
     }
 
     h1 {
