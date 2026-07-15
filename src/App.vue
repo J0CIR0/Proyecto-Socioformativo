@@ -31,6 +31,11 @@
             <BotonPersonalizado titulo="Cafetería Cat"
                                 descripcion="Este es un componente reutilizable creado para el proyecto." />
         </main>
+            <div style="margin-top: 40px; padding: 20px; background-color: #f0f4f8; border-radius: 8px;">
+                <h2>Nueva Sección: Títulos y Encabezados hecho por papi jociro</h2>
+                <p>Haz clic en el enlace para ver el componente reutilizable de títulos</p>
+                <a href="/titulo" class="link-titulo">Ver componente de título</a>
+            </div>
         <!--pie pag mel-->
         <PiePagina texto="© 2026 Gestión de Cafeteria | Programación Web II" />
     </div>
@@ -54,5 +59,20 @@
 
     h1 {
         margin-bottom: 8px;
+    }
+
+    .link-titulo {
+        display: inline-block;
+        background-color: #1a2a4a;
+        color: white;
+        padding: 12px 24px;
+        border-radius: 8px;
+        text-decoration: none;
+        font-weight: 600;
+        transition: background-color 0.3s;
+        margin-top: 10px;
+    }
+    .link-titulo:hover {
+        background-color: #2a4a7a;
     }
 </style>

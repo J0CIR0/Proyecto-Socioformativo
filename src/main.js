@@ -1,4 +1,7 @@
-import { createApp } from 'vue' //Crea la aplicacion 
+import { createApp } from 'vue'
 import App from './App.vue'
+import router from './router'
 
-createApp(App).mount('#app') //Inserta los elementos html seleccionados
+const app = createApp(App)
+app.use(router)
+app.mount('#app')
