@@ -9,7 +9,7 @@
 defineProps({
   titulo: {
     type: String,
-    default: 'Título
+    default: 'Título'
   },
   descripcion: {
     type: String,
