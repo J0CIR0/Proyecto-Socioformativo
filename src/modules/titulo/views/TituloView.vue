@@ -1,6 +1,7 @@
 <script setup>
 import TituloEncabezado from '@/components/TituloEncabezado.vue'
 </script>
+
 <template>
   <div class="titulo-page">
     <h2>Módulo de Títulos</h2>
@@ -21,6 +22,7 @@ import TituloEncabezado from '@/components/TituloEncabezado.vue'
     </div>
   </div>
 </template>
+
 <style scoped>
 .titulo-page {
   max-width: 900px;

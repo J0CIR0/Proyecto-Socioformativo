@@ -4,20 +4,20 @@
     <p>{{ encabezado }}</p>
   </div>
 </template>
+
 <script setup>
 defineProps({
   titulo: {
     type: String,
-    required: true,
-    description: 'Título principal del encabezado'
+    required: true
   },
   encabezado: {
     type: String,
-    default: 'Descripción del encabezado',
-    description: 'Texto del encabezado'
+    default: 'Descripción del encabezado'
   }
 })
 </script>
+
 <style scoped>
 .titulo-encabezado {
   background-color: #1a2a4a;
@@ -28,12 +28,14 @@ defineProps({
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   margin: 20px 0;
 }
+
 .titulo-encabezado h1 {
   margin: 0;
   font-size: 2.5rem;
   font-weight: 700;
   letter-spacing: 1px;
 }
+
 .titulo-encabezado p {
   margin: 8px 0 0 0;
   font-size: 1.2rem;

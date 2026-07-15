@@ -1,4 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
+
 const routes = [
   {
     path: '/',
@@ -11,8 +12,10 @@ const routes = [
     component: () => import('../modules/titulo/views/TituloView.vue')
   }
 ]
+
 const router = createRouter({
   history: createWebHistory(),
   routes
 })
+
 export default router
