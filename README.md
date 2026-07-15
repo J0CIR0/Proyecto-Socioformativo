@@ -46,3 +46,15 @@ npm run build
 ### Mockup
 
 ![Mockup Login](mockups/login2.png)
+
+
+
+## Registros
+
+### Registro de usuario
+
+![Wireframe Login](wireframes/registro_usuario.png)
+
+### Recuperacion de contraseña
+
+![Mockup Login](wireframes/recuperacion_contraseña.png)
